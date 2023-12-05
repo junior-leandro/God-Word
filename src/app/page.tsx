@@ -4,9 +4,9 @@ import separador from '../../public/pattern-divider-desktop.svg'
 
 export default function Home() {
   return (
-    <div className="w-full h-full flex flex-col justify-center items-center">
+    <div className="w-full h-full flex flex-col justify-center items-center p-2">
 
-      <div className="max-w-xl h-56 px-3 bg-darkGrayishBlue rounded-2xl flex flex-col justify-around items-center">
+      <div className="w-full max-w-xl h-72 lg:h-56 shadow-3xl px-3 bg-darkGrayishBlue rounded-2xl flex flex-col justify-around items-center">
 
         <Image
           src={citacao}
@@ -14,11 +14,11 @@ export default function Home() {
           width={65} 
           className='-mb-2'/>
 
-        <span className='text-lg text-justify text-white font-semibold'>"O SENHOR é o meu pastor, nada me faltará."</span>
+        <span className='text-lg text-justify text-lightColor font-semibold'>"Pois onde estiver o teu tesouro, aí estará também o teu coração."</span>
         <Image 
           src={separador}
           alt="separador" />
-        <span className='text-sm text-white font-bold'>Salmos 23:1</span>
+        <span className='text-sm text-white font-bold'>Mateus 6:21</span>
 
       </div>
 

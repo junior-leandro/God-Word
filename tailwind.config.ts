@@ -12,6 +12,7 @@ const config: Config = {
     },
     colors: {
       'lightCyan': 'hsl(193, 38%, 86%)',
+      'lightColor': '#eeeeee',
       'neonGreen': 'hsl(150, 100%, 66%)',
       'grayishBlue': 'hsl(217, 19%, 38%)',
       'darkGrayishBlue': 'hsl(217, 19%, 24%)',
@@ -25,7 +26,7 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       boxShadow: {
-        '3xl': '0 5px 60px -8px rgba(82, 255, 168, 1)',
+        '3xl': '0 0 35px -2px rgba(82, 255, 168, 1)',
       }
     },
   },
