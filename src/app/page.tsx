@@ -2,7 +2,9 @@ import Image from 'next/image'
 import citacao from '../../public/cruz-clara.png'
 import separador from '../../public/pattern-divider-desktop.svg'
 
+
 export default function Home() {
+  
   return (
     <div className="w-full h-full flex flex-col justify-center items-center p-2">
 
