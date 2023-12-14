@@ -9,7 +9,7 @@ const palavra = [
     versiculo: "Mateus 6:21"
   },
   {
-    texto: "Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar",
+    texto: "Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar.",
     versiculo: "Josué 1:9"
   },
   {
@@ -37,11 +37,11 @@ const palavra = [
     versiculo: "Romanos 8,31"
   },
   {
-    texto: "Amarás o Senhor teu Deus de todo o teu coração, de toda a tua alma e com toda a tua mente",
+    texto: "Amarás o Senhor teu Deus de todo o teu coração, de toda a tua alma e com toda a tua mente.",
     versiculo: "Mateus 22:37"
   },
   {
-    texto: "Eu disse essas coisas para que em mim vocês tenham paz. Neste mundo vocês terão aflições; contudo, tenham ânimo! Eu venci o mundo",
+    texto: "Eu disse essas coisas para que em mim vocês tenham paz. Neste mundo vocês terão aflições; contudo, tenham ânimo! Eu venci o mundo.",
     versiculo: "João 16:33"
   },
   {
@@ -65,8 +65,16 @@ const palavra = [
     versiculo: "Êxodo 20:12"
   },
   {
-    texto: "Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.",
+    texto: "Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que Nele crer não pereça, mas tenha a vida eterna.",
     versiculo: "João 3:16"
+  },
+  {
+    texto:  "Tudo o que vocês fizerem façam de coração, como quem obedece ao Senhor, e não aos homens.",
+    versiculo: "Colossenses 3:23"
+  },
+  {
+    texto: "Sejam fortes e corajosos! Não tenham medo, porque Javé seu Deus é quem vai com você. Ele não o deixará, e jamais o abandonará.",
+    versiculo: "Deteronômio 31:6"
   }
 ]
 
@@ -87,7 +95,7 @@ export default function Home() {
           width={65}
           className='-mb-2' />
 
-        <span className='text-lg text-justify text-lightColor font-semibold'>{palavra[i].texto}</span>
+        <span className='text-lg text-justify text-lightColor font-semibold'>"{palavra[i].texto}"</span>
         <Image
           src={separador}
           alt="separador" />
