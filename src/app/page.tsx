@@ -75,6 +75,14 @@ const palavra = [
   {
     texto: "Sejam fortes e corajosos! Não tenham medo, porque Javé seu Deus é quem vai com você. Ele não o deixará, e jamais o abandonará.",
     versiculo: "Deteronômio 31:6"
+  },
+  {
+    texto: "A fé é o fundamento da esperança, é uma certeza a respeito do que não se vê.",
+    versiculo: "Hebreus 11:1"
+  },
+  {
+    texto: "O Senhor é bom, é um refúgio na tribulação; conhece os que nele confiam.",
+    versiculo: "Naum 1:7"
   }
 ]
 
