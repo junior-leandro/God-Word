@@ -87,6 +87,10 @@ const palavra = [
   {
     texto: "Procurai a paz com todos e ao mesmo tempo a santidade, sem a qual ninguém pode ver o Senhor.",
     versiculo: "Hebreus 12:14"
+  },
+  {
+    texto: "Só em Deus repousa a minha alma, é Dele que me vem o que eu espero",
+    versiculo: "Salmos 61:6"
   }
 ]
 
