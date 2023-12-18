@@ -83,6 +83,10 @@ const palavra = [
   {
     texto: "O Senhor é bom, é um refúgio na tribulação; conhece os que nele confiam.",
     versiculo: "Naum 1:7"
+  },
+  {
+    texto: "Procurai a paz com todos e ao mesmo tempo a santidade, sem a qual ninguém pode ver o Senhor.",
+    versiculo: "Hebreus 12:14"
   }
 ]
 
