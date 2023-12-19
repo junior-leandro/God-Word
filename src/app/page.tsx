@@ -69,7 +69,7 @@ const palavra = [
     versiculo: "João 3:16"
   },
   {
-    texto:  "Tudo o que vocês fizerem façam de coração, como quem obedece ao Senhor, e não aos homens.",
+    texto: "Tudo o que vocês fizerem façam de coração, como quem obedece ao Senhor, e não aos homens.",
     versiculo: "Colossenses 3:23"
   },
   {
@@ -91,6 +91,10 @@ const palavra = [
   {
     texto: "Só em Deus repousa a minha alma, é Dele que me vem o que eu espero",
     versiculo: "Salmos 61:6"
+  },
+  {
+    texto: "Espere no Senhor. Seja Forte! Coragem! Espere no Senhor",
+    versiculo: "Salmos 27:14"
   }
 ]
 
