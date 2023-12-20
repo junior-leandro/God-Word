@@ -95,6 +95,10 @@ const palavra = [
   {
     texto: "Espere no Senhor. Seja Forte! Coragem! Espere no Senhor",
     versiculo: "Salmos 27:14"
+  },
+  {
+    texto: "E o Verbo se fez carne e habitou no meios de nós, e vimos sua glória, a glória que o Filho único recebe do seu Pai, cheio de graça e de verdade",
+    versiculo: "João 1:14"
   }
 ]
 
